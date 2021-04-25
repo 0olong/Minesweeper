@@ -1,0 +1,112 @@
+body {
+    /*background: rgb(165, 194, 113);*/
+}
+
+.gameCanvas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    display: inline-block;
+    background: #abd55a;
+    border: 1px solid #88ae42;
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+.col:hover {
+    opacity: 0.7;
+}
+
+.col span {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    line-height: 50px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.alert {
+    text-align: center;
+    /*color: white;*/
+}
+
+.hide {
+    display: none;
+}
+
+.num-1 {
+    color: dodgerblue;
+}
+
+.num-2 {
+    color: seagreen;
+}
+
+.num-3 {
+    color: darkred;
+}
+
+.num-4 {
+    color: rebeccapurple;
+}
+
+.num-5 {
+    color: darkorange;
+}
+
+.num-6 {
+    color: deeppink;
+}
+
+.num-7 {
+    color: lightcoral;
+}
+
+.num-8 {
+    color: darkblue;
+}
+
+.mine {
+    background: url('mine.png') no-repeat #e4c1a1;
+    background-size: 50px 50px;
+    border: 1px solid #e4c1a1;
+}
+
+.flag {
+    background: url('flag.png') no-repeat #abd55a;
+    background-size: 50px 50px;
+    /*border: 1px solid #e4c1a1;*/
+}
+
+.reveal {
+    display: inline-block !important;
+    background: #e4c1a1 !important;
+}
+
+#id-restartButton {
+    display: block;
+    margin: 0 auto;
+}
+
+#id-timer {
+    text-align: center;
+}
