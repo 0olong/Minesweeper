@@ -5,4 +5,4 @@
 
 ## Screenshot
 
-![Minesweeper](Screenshot/Minesweeper.png)
+<img src="Screenshot/Minesweeper.png" width="400px" />
